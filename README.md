@@ -16,6 +16,16 @@ Or install it yourself as:
 
     $ gem install million
 
+## Benchmakrs
+
+### Pi
+
+| report |   user   |  system  |   total  |   real   |
+| ------ |:--------:|:--------:|:--------:| --------:|
+| new    | 0.110000 | 0.020000 | 0.130000 | 1.297553 |
+| [ ]    | 0.000000 | 0.000000 | 0.000000 | 0.000015 |
+| find   | 0.000000 | 0.000000 | 0.000000 | 0.000362 |
+
 ## Usage
 
 TODO: Write usage instructions here
