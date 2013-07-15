@@ -5,10 +5,9 @@ require 'open-uri'
 describe Million::Pi do
   let(:pi){ Million::Pi.new }
 
-  describe "url" do
+  describe "file" do
     it "shoud be alive and kicking" do
-      doc = Nokogiri::HTML(open( Million::Pi.url))
-      doc.should_not be_nil
+       Million::Pi.file.should_not be_nil
     end
   end
 

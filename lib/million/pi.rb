@@ -1,15 +1,15 @@
-require 'nokogiri'
-require 'open-uri'
 module Million
   class Pi
     attr_reader :value
-    def self.url
-      'http://www.eveandersson.com/pi/digits/1000000'
+    def self.file
+      File.open('lib/raw/pi')
     end
 
     def initialize
-      doc = Nokogiri::HTML(open( Million::Pi.url ))
-      @value = doc.css('table pre').text().gsub("\n","")[2..-1] if doc
+      @value = ""
+      Million::Pi.file.each_line do |line|
+        @value << line
+      end
     end
 
     def [](index)
