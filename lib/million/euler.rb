@@ -1,14 +1,14 @@
 module Million
-  class Pi
+  class Euler
     include ::Million::Digits
 
     def self.file
-      File.open('lib/raw/pi')
+      File.open('lib/raw/euler')
     end
 
     def initialize
       @value = ""
-      Million::Pi.file.each_line { |line| @value << line }
+      Million::Euler.file.each_line { |line| @value << line }
     end
 
   end
