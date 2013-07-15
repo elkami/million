@@ -1,5 +1,4 @@
-# Million  [![Build Status](https://travis-ci.org/3zcurdia/million.png?branch=master)](https://travis-ci.org/3zcurdia/million) [![Codeclimate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/3zcurdia/million)
-
+# Million  [![Build Status](https://travis-ci.org/3zcurdia/million.png?branch=master)](https://travis-ci.org/3zcurdia/million) [![Code Climate](https://codeclimate.com/github/3zcurdia/million.png)](https://codeclimate.com/github/3zcurdia/million)
 Example of gem strcuture to get million of digits of irrational numbers
 
 ## Installation
