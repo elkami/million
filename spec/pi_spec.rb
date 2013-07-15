@@ -1,6 +1,4 @@
 require 'spec_helper'
-require 'nokogiri'
-require 'open-uri'
 
 describe Million::Pi do
   let(:pi){ Million::Pi.new }
